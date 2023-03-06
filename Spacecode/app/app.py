@@ -18,8 +18,8 @@ def send_email():
 
     smtp_server = 'smtp.office365.com'
     smtp_port = 587
-    email_address = 'space-code@outlook.com'
-    password = '@Joao123'
+    email_address = 'yourmail@mail.com'
+    password = 'mailpassword'
     server = smtplib.SMTP(smtp_server, smtp_port)
     server.starttls()
     server.login(email_address, password)
