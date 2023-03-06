@@ -1,0 +1,50 @@
+:root {
+    --color-primary: #11181C;
+    --color-primary-light: #376769;
+    --color-primary-light2: #325E54;
+    --color-white: #ECF0F1;
+}
+
+.section__projetos {
+    background-color: var(--color-primary);
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+    overflow: hidden;
+}
+.text__projetos {
+    padding: 5rem;
+}
+.projetos__paragraph {
+    width: 35rem;
+    margin: 1rem 0;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+}
+.arrow{
+    color: var(--color-white);
+    width: 15rem;
+    margin-top: 15rem;
+    animation: scrollBall 2s .1ms ease-in-out infinite;
+}
+
+.container__boxes {
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.box {
+    width: 25rem;
+    height: 45rem;
+    background-color: var(--color-primary-light);
+    border-radius:  0px 4rem 0px 4rem;
+
+}
+
+.box--middle{ 
+    margin-top: 10rem;
+    background-color: var(--color-primary-light2);
+}

@@ -1,0 +1,22 @@
+:root {
+    --color-primary: #11181C;
+    --color-primary-light: #376769;
+    --color-primary-light2: #325E54;
+    --color-white: #ECF0F1;
+}
+
+
+.btn {
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn--enviar {
+    border-radius: 50rem;
+    margin: 2rem 15rem;
+    background-color: var(--color-primary-light);
+    color: var(--color-white);
+}

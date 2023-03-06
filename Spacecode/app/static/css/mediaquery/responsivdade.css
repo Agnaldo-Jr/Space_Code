@@ -1,0 +1,759 @@
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) { 
+    html {
+        font-size: 62.5%;
+    }
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .container__social {
+        gap: 2rem;
+        margin-left: -8rem;
+    }
+    .hero__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+    }
+    .container__scroll {
+        display: none;
+    }
+    .container__description {
+        text-align: center;
+        margin-top: -5rem
+    }
+    .heading-primary-bottom {
+        margin: 0;
+    }
+    .paragraph {
+        margin: auto;
+        text-align: center;
+    }
+
+    .section__projetos {
+        flex-direction: column;
+
+    }
+    .text__projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__projetos{
+        height: 180rem;
+    }
+    .container__boxes {
+        flex-direction: column;
+        gap: 15rem;
+    }
+    .box--middle {
+        margin: 0;
+        display: none;
+    }
+
+    .section__processo {
+        height: 150rem;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .section__contact {
+        align-items: center;
+        justify-content: center;
+    }
+    .contact__illustration {
+        display: none;
+    }
+
+    .form__container {
+        align-items: center;
+        justify-content: center;
+    }
+    .section__contact .heading-primary {
+        font-size: 1.6rem;
+    }
+    .section__sobre .heading-primary {
+        font-size: 2rem;
+    }
+
+    .section__sobre .paragraph {
+        font-size: 1.4rem;
+        width: 65rem;
+    }
+    .footer {
+        margin-top: -28rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+    html {
+        font-size: 62.5%;
+    }
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .container__social {
+        gap: 2rem;
+        margin-left: -8rem;
+    }
+    .hero__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+    }
+    .container__scroll {
+        display: none;
+    }
+    .container__description {
+        text-align: center;
+        margin-top: -5rem
+    }
+    .heading-primary-bottom {
+        margin: 0;
+    }
+    .paragraph {
+        margin: auto;
+        text-align: center;
+    }
+
+    .section__projetos {
+        flex-direction: column;
+
+    }
+    .text__projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__projetos{
+        height: 180rem;
+    }
+    .container__boxes {
+        flex-direction: column;
+        gap: 15rem;
+    }
+    .box--middle {
+        margin: 0;
+        display: none;
+    }
+
+    .section__processo {
+        height: 150rem;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .section__contact {
+        align-items: center;
+        justify-content: center;
+    }
+    .contact__illustration {
+        display: none;
+    }
+
+    .form__container {
+        align-items: center;
+        justify-content: center;
+    }
+    .section__contact .heading-primary {
+        font-size: 1.6rem;
+    }
+    .section__sobre .heading-primary {
+        font-size: 2rem;
+    }
+
+    .section__sobre .paragraph {
+        font-size: 1.4rem;
+        width: 65rem;
+    }
+    .footer {
+        margin-top: -28rem;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) { 
+    html {
+        font-size: 38%; 
+    }
+
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .container__social {
+        gap: 2rem;
+        margin-left: -8rem;
+    }
+    .hero__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+    }
+    .container__scroll {
+        display: none;
+    }
+    .container__description {
+        text-align: center;
+        margin-top: -5rem
+    }
+    .heading-primary-bottom {
+        margin: 0;
+    }
+    .paragraph {
+        margin: auto;
+        text-align: center;
+    }
+
+    .section__projetos {
+        flex-direction: column;
+
+    }
+    .text__projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__projetos{
+        height: 180rem;
+    }
+    .container__boxes {
+        flex-direction: column;
+        gap: 15rem;
+    }
+    .box--middle {
+        margin: 0;
+        display: none;
+    }
+
+    .section__processo {
+        height: 150rem;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .section__contact {
+        align-items: center;
+        justify-content: center;
+    }
+    .contact__illustration {
+        display: none;
+    }
+
+    .form__container {
+        align-items: center;
+        justify-content: center;
+    }
+    .section__contact .heading-primary {
+        font-size: 1.6rem;
+    }
+    .section__sobre .heading-primary {
+        font-size: 2rem;
+    }
+
+    .section__sobre .paragraph {
+        font-size: 1.4rem;
+        width: 65rem;
+    }
+    .footer {
+        margin-top: -28rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 38%; 
+    }
+
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .container__social {
+        gap: 2rem;
+        margin-left: -8rem;
+    }
+    .hero__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+    }
+    .container__scroll {
+        display: none;
+    }
+    .container__description {
+        text-align: center;
+        margin-top: -5rem
+    }
+    .heading-primary-bottom {
+        margin: 0;
+    }
+    .paragraph {
+        margin: auto;
+        text-align: center;
+    }
+
+    .section__projetos {
+        flex-direction: column;
+
+    }
+    .text__projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__projetos{
+        height: 180rem;
+    }
+    .container__boxes {
+        flex-direction: column;
+        gap: 15rem;
+    }
+    .box--middle {
+        margin: 0;
+        display: none;
+    }
+
+    .section__processo {
+        height: 150rem;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .section__contact {
+        align-items: center;
+        justify-content: center;
+    }
+    .contact__illustration {
+        display: none;
+    }
+
+    .form__container {
+        align-items: center;
+        justify-content: center;
+    }
+    .section__contact .heading-primary {
+        font-size: 1.6rem;
+    }
+    .section__sobre .heading-primary {
+        font-size: 2rem;
+    }
+
+    .section__sobre .paragraph {
+        font-size: 1.4rem;
+        width: 65rem;
+    }
+    .footer {
+        margin-top: -28rem;
+    }
+}
+
+@media screen and (min-widht: 480px) and (max-width: 1024px) and (orientation:landscape) {  
+    html {
+        font-size: 38% ;
+    }
+    .section__contact {
+        height: 100rem;
+    }
+}
+
+
+/* Media query até 1024px
+@media screen and (max-width: 64em)  {
+    html {
+        font-size: 62.5%;
+    }
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .container__social {
+        gap: 2rem;
+        margin-left: -8rem;
+    }
+    .hero__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+    }
+    .container__scroll {
+        display: none;
+    }
+    .container__description {
+        text-align: center;
+        margin-top: -5rem
+    }
+    .heading-primary-bottom {
+        margin: 0;
+    }
+    .paragraph {
+        margin: auto;
+        text-align: center;
+    }
+
+    .section__projetos {
+        flex-direction: column;
+
+    }
+    .text__projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__projetos{
+        height: 180rem;
+    }
+    .container__boxes {
+        flex-direction: column;
+        gap: 15rem;
+    }
+    .box--middle {
+        margin: 0;
+        display: none;
+    }
+
+    .section__processo {
+        height: 150rem;
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .section__contact {
+        align-items: center;
+        justify-content: center;
+    }
+    .contact__illustration {
+        display: none;
+    }
+
+    .form__container {
+        align-items: center;
+        justify-content: center;
+    }
+    .section__contact .heading-primary {
+        font-size: 1.6rem;
+    }
+    .section__sobre .heading-primary {
+        font-size: 2rem;
+    }
+
+    .section__sobre .paragraph {
+        font-size: 1.4rem;
+        width: 65rem;
+    }
+    .footer {
+        margin-top: -28rem;
+    }
+}
+
+/* Media query até 768px  portrait
+@media screen and (min-width: 48em )  and (orientation: portrait) {
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .container__social {
+        gap: 2rem;
+    }
+
+    .section__hero {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero__text {
+        height: 75vh;
+    }
+
+    .footer {
+        margin-top: -32rem;
+    }
+}
+/* Media query até 700px 
+@media screen and (max-wdith: 43.75em) {
+    .section__sobre .paragraph {
+        font-size: 1.6rem;
+    }
+    
+}
+
+
+/*Media query 600px landscape
+@media screen and (min-width: 31.25em) and (max-width: 41.25em) and (orientation: landscape){
+    html {
+        font-size: 35.75%;
+    }
+    .section__contact {
+        height: 90rem;
+    }
+    
+}
+/* Media query de 690px até 990px landscape 
+@media screen and (min-width: 43.31em) and (max-width: 48.81em) and (orientation: landscape) {
+    html {
+        font-size: 38%;
+    }
+
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .container__scroll {
+        display: none;
+    }
+
+    .section__contact {
+        height: 100rem;
+    }
+}
+/* Media query landscape 667px até 736px 
+@media screen and (min-width: 41.68em) and (max-width: 46em) and (orientation: landscape) {
+    html{
+        font-size: 37.5%;
+    }
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .footer {
+        margin-top: -38rem;
+    }
+}
+
+@media screen and (min-width: 50em) and (max-width: 57.5em ) and (orientation: landscape){
+    html {
+        font-size: 38%;
+    }
+    .section__contact {
+        height: 90rem;
+    }
+}
+
+@media screen and (max-width: 31.87em){
+    html {
+        font-size: 38%;
+    }
+
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .section__hero {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero__text {
+        height: 75vh;
+    }
+
+    .container__scroll {
+        display: none;
+    }
+
+    .section__contact {
+        height: 100rem;
+    }
+
+    .footer {
+        margin-top: -32rem;
+    }
+}
+/* Media query até 425px portrait 
+@media screen and (max-width: 26.75em) {
+    html {
+        font-size: 38%; 
+    }
+
+    .container__nav {
+        justify-content: flex-start;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburguer-menu {
+        display: block;
+        position: fixed;
+    }
+    .hamburguer-menu__item {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .container__social {
+        gap: 2rem;
+    }
+
+    .section__hero {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero__text {
+        height: 75vh;
+    }
+    .hero__text .heading__secondary{
+       font-size: 2.5rem;
+    }
+    .section__contact .heading-primary {
+        width: 80%;
+        text-align: center;
+    }
+    .section__processo .paragraph {
+        letter-spacing: 1px;
+    } 
+    .section__sobre .heading-primary {
+        font-size: 2rem;
+        display: block;
+        width: 50rem;
+        text-align: center;
+    }
+    .section__sobre {
+        width: 100%;
+        overflow: hidden;
+    }
+    .section__sobre .paragraph { 
+        width: 50rem;
+        letter-spacing: 1px;
+    }
+    .form {
+        padding: 5rem;
+    }
+    .footer{
+        margin-top: -50rem;
+        overflow: hidden;
+    }
+}
+
+
+*/

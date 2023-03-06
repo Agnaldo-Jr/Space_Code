@@ -1,0 +1,90 @@
+:root {
+    --color-primary: #11181C;
+    --color-primary-light: #376769;
+    --color-primary-light2: #325E54;
+    --color-white: #ECF0F1;
+}
+.section__hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgba(0,0,0, .6), rgba(0,0,0, .6)), url(../../img/background-hero-min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 6rem 3rem;
+    animation: opacityLoad 2s .2ms forwards ease-in-out;
+}
+.nav .list__nav {
+    list-style: none;
+    display: flex;
+}
+.nav .nav__item {
+    padding: 2rem 3rem;
+}
+.nav .nav__link:link,
+.nav .nav__link:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--color-white);
+    transition: .5s ease-in-out;
+}
+
+.nav .nav__link:hover {
+    color: var(--color-primary-light);
+}
+.icons-img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.container__social {
+    display: flex;
+    gap: 6rem;
+}   
+.hero__text {
+    animation: loadEnterLeft 2s .1ms forwards ease-in-out;
+    margin-top: 5.2rem;
+    display: block;
+}
+.hero__text .heading__secondary{
+    margin: 10rem 18rem;
+}
+
+.hero__text .paragraph {
+    width: 40rem;
+    margin: -7rem 18.2rem;
+}
+
+.container__scroll {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    animation: opacity 2s .1ms forwards ease-in-out;
+}
+
+.scroll__outside {
+    border: 2px solid var(--color-white);
+    width: 3.2rem;
+    height: 6.5rem;
+    border-radius: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll__outside .scroll__ball {
+    background-color: var(--color-white);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    animation: scrollBall 2s .2ms infinite ease-in-out;
+}

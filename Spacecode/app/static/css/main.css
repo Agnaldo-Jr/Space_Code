@@ -1,0 +1,14 @@
+@import "base/base.css";
+@import "base/tipografia.css";
+@import "layouts/hero.css";
+@import "layouts/sectionProjetos.css";
+@import "layouts/sectionProcess.css";
+@import "layouts/sectionContact.css";
+@import "layouts/sectionSobre.css";
+@import "layouts/footer.css";
+@import "components/button.css";
+@import "components/hidden.css";
+@import "components/hamburger.css";
+@import "mediaquery/responsivdade.css";
+@import "animations/animations.css";
+
